@@ -1,8 +1,8 @@
-"Test Driven Development by Example" es un libro fundamental esrito por Kent Beck, uno de los pioneros de las metodologías ágiles y creador de Extreme Programming (XP), que transformó radicualmente cómo los desarrolladores abordan la creación de software.
+"Test Driven Development by Example" es un libro fundamental escrito por Kent Beck, uno de los pioneros de las metodologías ágiles y creador de Extreme Programming (XP), que transformó radicalmente cómo los desarrolladores abordan la creación de software.
 
-Este libro se ha establecido como un recurso indispensable para programadores que buscar mejorar la calidad y confiabilidad de su código. La premisa central es revolucionaria pero pragmática: escribir pruebas antes que el código de proucción conuce a mejor diseño y mayor calidad.
+Este libro se ha establecido como un recurso indispensable para programadores que buscar mejorar la calidad y confiabilidad de su código. La premisa central es revolucionaria pero pragmática: escribir pruebas antes que el código de proucción conduce a mejor diseño y mayor calidad.
 
-Beck presenta el Test Driven Development (TDD) no sólo como una técnica de pruebas, sino como una metodoloía completa de desarrollo que impulsa un diseño emergente y una codificación más enfocada. A través de ejemplos concretos, ejercicios prácticos y explicaciones clara, el libro muestro cómo implementar TDD en situaciones reales.
+Beck presenta el Test Driven Development (TDD) no sólo como una técnica de pruebas, sino como una metodoloía completa de desarrollo que impulsa un diseño emergente y una codificación más enfocada. A través de ejemplos concretos, ejercicios prácticos y explicaciones clara, el libro a cómo implementar TDD en situaciones reales.
 
 Concepto principal de TDD:
 El libro se centra en un ciclo muy simple:
@@ -109,5 +109,5 @@ Si estás en medio de un ciclo TDD (en la fase "Rojo" o "Verde") cuando el tiemp
 20. Un 'Test Double' como un Mock Object es útil en TDD cuando se necesita simular el comportamiento de dependencias externas (base de datos, servicios, etc.) para aislar la unidad bajo prueba.
 La esencia de un test unitario es probar una sola "unidad" de código de forma aislada. Sin embargo, el código a menudo tiene dependencias de otros componentes, como:
  * Base de datos: Acceder a una base de datos real es lento e introduce complejidad.
- * SErvicios web externos: Llamar a una API externa es lento y depende de la disponibilidad del servicio.
- * Archivos del sistema: La lectura o esritura de archivos puede hacer que os tests sean frágiles y lentos
+ * Servicios web externos: Llamar a una API externa es lento y depende de la disponibilidad del servicio.
+ * Archivos del sistema: La lectura o esritura de archivos puede hacer que los tests sean frágiles y lentos
